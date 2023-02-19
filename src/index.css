@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	transition: margin-left 0.5s, background-color 0.75s;
+}
+
+.content-layout {
+	margin: 10px 10px 10px 10px;
+}
+
+.switch-theme {
+	background-color: rgb(234, 234, 234);
+}
+
+.switch-theme > .ant-switch-inner > .ant-switch-inner-unchecked {
+	color: black !important;
+}
+.dark-table .ant-table-thead > tr > th {
+	background-color: #292c2c !important;
+}
+
+.dark-table .ant-table-tbody > tr > td {
+	background-color: #292c2c !important;
+}
+.dark-cell {
+	background-color: black;
+	color: white;
+}
+.dark-row {
+	background-color: black;
+	color: white;
+}
